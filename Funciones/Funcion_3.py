@@ -102,7 +102,7 @@ def miTelefonos():
         texto.pack()
         
 
-        texto= Label(ventana2,text="Xiaomi Mi 11 --- $8,719.00")
+        texto= Label(ventana2,text="Xiaomi Mi 11 Midnight --- $19,799.00")
         texto.pack()
         
 
@@ -114,7 +114,7 @@ def miTelefonos():
         texto.pack()
         
 
-        texto= Label(ventana2,text="Xiaomi Mi 11 --- $6,999.00")
+        texto= Label(ventana2,text="Xiaomi Mi 11 lite --- $6,999.00")
         texto.pack()
 
     def miMotorola():
