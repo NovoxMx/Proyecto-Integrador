@@ -127,23 +127,23 @@ def miTelefonos():
         texto.pack()
         
 
-        texto= Label(ventana2,text="iPhone 12 --- $19,499.00")
+        texto= Label(ventana2,text="Motorola G --- $5,499.00")
         texto.pack()
         
 
-        texto= Label(ventana2,text="iPhone 11 Pro Max --- $24,598.00")
+        texto= Label(ventana2,text="Motorola Moto G60 --- $7,299.00")
         texto.pack()
         
 
-        texto= Label(ventana2,text="iPhone X --- $8,724.00")
+        texto= Label(ventana2,text="Motorola Edge 20 --- $10,999.00")
         texto.pack()
         
 
-        texto= Label(ventana2,text="iPhone 8 Plus --- $7,694.19")
+        texto= Label(ventana2,text="Motorola XT2125-4 --- $13,199.00")
         texto.pack()
         
 
-        texto= Label(ventana2,text="iPhone Xr --- $8,724.00")
+        texto= Label(ventana2,text="Motorola Edge --- $13,553.15")
         texto.pack()
         
     ventana.destroy()
@@ -162,6 +162,8 @@ def miTelefonos():
     Boton1_3= Button(ventanaTelefono, text="Motorola", command= miMotorola).grid(row=6, sticky=W+E, columnspan=20)
 
 def miCargadores():
+
+    ventana.destroy()
     ventana3 = Tk()
     ventana3.geometry("1280x720")
     ventana3.title("Cargadores")
@@ -172,6 +174,8 @@ def miCargadores():
     texto.grid(row=1, columnspan=20, sticky=W+E)
 
 def miPlanes():
+    
+    ventana.destroy()
     ventana4 = Tk()
     ventana4.geometry("1280x720")
     ventana4.title("Planes")
