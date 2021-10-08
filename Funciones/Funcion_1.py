@@ -10,6 +10,11 @@ if opcion < 1 or opcion >2:
     print ('Ingrese un número valido.')
     
 elif opcion == 1:
-    print ('Inventario 1')
+    almacenamiento = open('C:\\Users\\mctul\\OneDrive\\Documentos\\Pensamiento computacional\\Trabajo final\\Proyecto-Integrador\\Funciones\\Inventario_celulares.txt', "r")
+    while True:
+        theline = almacenamiento.readline()
+        if len (theline) == 0:
+            break
+        print(theline, end ="")
 elif opcion == 2:
     print('Inventario 2')
