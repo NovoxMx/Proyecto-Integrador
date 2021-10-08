@@ -4,11 +4,13 @@
 def agregar_producto(producto, cantidad):
     almacen_viejo = open("almacenaje.txt", "r")
     lista_almacen = almacen_viejo.readlines()
-    almacen_viejo.close()
     print(lista_almacen)
     print(lista_almacen[producto * 2])
     #almacen_nuevo = open("almacenaje.txt", "w")
+    print(lista_almacen[:(producto * 2)]) #Todo antes de la linea que quiero
 
+    print(lista_almacen[(producto * 2):]) #Todo después de la linea que quiero
+    almacen_viejo.close()
     #almacen_nuevo.close()
     
 
