@@ -4,7 +4,7 @@ def samsung(telefono):
     elif telefono  == 2:
         print("\nGalaxy Z Fold3 5G \nMemoria ram = \nCapacidad de almacenamiento = \nPantalla = ")
     else:
-        print("\nSamsung Galaxy A3 \nMemoria ram = \nCapacidad de almacenamiento = \nPantalla = ")
+        print("\nSamsung Galaxy A32 \nMemoria ram = \nCapacidad de almacenamiento = \nPantalla = ")
         
 
 def iphone(telefono):
