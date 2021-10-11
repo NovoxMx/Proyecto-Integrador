@@ -37,5 +37,6 @@ elif valor == 2:
 
         for filas in archivo1:
             print (filas)
-
+else:
+    print("Número invalido")
 
