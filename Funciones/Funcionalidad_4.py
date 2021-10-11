@@ -145,3 +145,4 @@ else:
     archivo.write('Producto: ' + producto + '\n')
     archivo.write('Cantidad de productos vendidos: ' + str(cantidad) + '\n\n')
     archivo.close()
+
