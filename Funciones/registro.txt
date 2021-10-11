@@ -1,0 +1,8 @@
+------ REGISTRO DE VENTAS ------
+
+
+Empleado: Pedro
+Fecha y hora: 2021-10-10 17:31:28.863618
+Producto: iPhone 12
+Cantidad de productos vendidos: 1
+
