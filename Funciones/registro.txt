@@ -1,2 +1,7 @@
 ------ REGISTRO DE VENTAS ------
 
+Empleado: Pablo
+Fecha y hora: 2021-10-10 20:57:34.560757
+Producto: iPhone 11 Pro Max
+Cantidad de productos vendidos: 2
+
