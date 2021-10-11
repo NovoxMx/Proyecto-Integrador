@@ -52,11 +52,11 @@ def miTelefonos(opcion):
         miSamsung(opcion_telefono)
     elif opcion_telefono == 2:
         miiPhone(opcion_telefono)
-    elif opcion_telefono == 2:
+    elif opcion_telefono == 3:
         miHuawei(opcion_telefono)
-    elif opcion_telefono == 2:
+    elif opcion_telefono == 4:
         miXiaomi(opcion_telefono)
-    elif opcion_telefono == 2:
+    elif opcion_telefono == 5:
         miMotorola(opcion_telefono)
     else:
         print("Numero invalido")
