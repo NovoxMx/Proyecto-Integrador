@@ -21,13 +21,34 @@ def agregar_producto(producto, cantidad):
 #display productos
 #Ejemplo_1:
 print("[1] - Iphone 11")
-print("[2] - Samsung x")
+
+"""Galaxy Note 20 Ultra
+Galaxy Z Fold3 5G
+Samsung Galaxy A32
+iPhone 12
+iPhone 11 Pro Max
+iPhone Xr
+Huawei P40 Pro
+Huawei Mate 40 PRO
+Huawei P30 Lite
+Xiaomi Redmi Note 10 Pro
+Xiaomi Mi Mix 2S
+Xiaomi Mi 11 Lite
+Motorola Moto G60
+Motorola Edge 20
+Motorola XT2125-4
+Cargador Tipo C 
+Cargador iPhone
+Cargador Micro Usb
+Audifonos Bluetooth
+Airpod
+Fundas
+Protector de pantalla
+Tarjeta de memoria (64Gb)
+Bateria portatil
+Popsockets"""
 
 prod = int(input("Inserte la clave del producto que desea agregar: "))
-#Asignación número-producto
-#Ejemplo_1:
-if prod == 1:
-    Producto = "Iphone 11"
 
 Cant = int(input("¿Qué cantidad de productos desea agregar? "))
 
