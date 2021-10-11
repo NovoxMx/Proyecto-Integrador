@@ -1,6 +1,6 @@
 def samsung(telefono):
     if telefono == 1:
-        print("\nGalaxy Note 20 Ultra \nMemoria ram = \nCapacidad de almacenamiento = \nPantalla = ")
+        print('\nGalaxy Note 20 Ultra \nMemoria ram = 12 GB RAM LPDDR5 \nCapacidad de almacenamiento = 256/512 (con MicroSD\nPantalla = Dynamic AMOLED 6,9" 3.088 x 1.440 px WQHD+')
     elif telefono  == 2:
         print("\nGalaxy Z Fold3 5G \nMemoria ram = \nCapacidad de almacenamiento = \nPantalla = ")
     else:
