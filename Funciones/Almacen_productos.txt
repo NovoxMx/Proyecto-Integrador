@@ -11,12 +11,12 @@ iPhone Xr
 Celulares Huawei:
 Huawei P40 Pro
 Huawei Mate 40 PRO
-Huawei P30 lite
+Huawei P30 Lite
 
 Celulares Xiaomi:
 Xiaomi Redmi Note 10 Pro
 Xiaomi Mi Mix 2S
-Xiaomi Mi 11 lit
+Xiaomi Mi 11 Lite
 
 Celulares Motorola:
 Motorola Moto G60
@@ -25,9 +25,9 @@ Motorola XT2125-4
 
 Accesorios:
 
-Cargador Tipo C 
-Cargador iphone
-Cargador Micro usb
+Cargador Tipo C
+Cargador iPhone
+Cargador Micro Usb
 Audifonos Bluetooth
 Airpod
 Fundas
