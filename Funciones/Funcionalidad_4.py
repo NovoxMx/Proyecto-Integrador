@@ -8,7 +8,7 @@ hora = datetime.now()
 registro = []
 rule = 1
 print('---Bienvenido al registro, ingrese lo que se le pide.---')
-print('\nEmpleado: 1-Jose, 2-Pablo, 3- Pedro')
+print('\nEmpleado: 1-Jose, 2-Pablo, 3-Pedro')
 a_1 = int(input('Ingrese su numero de empleado: '))
 emp = str(0)
 while a_1 < 1 or a_1 >3:
@@ -22,7 +22,11 @@ else:
 
 
 print("\nIngese el producto vendido")
+<<<<<<< HEAD:Funciones/Funcion_4.py
 print("1-Samsung, 2-Iphone, 3-Huawei, 4-Xiaomi, 5-motorola, 6-Cargadores, 7-Audifonos y protección, 8-Otros")
+=======
+print("1-Samsung, 2-Iphone, 3-Huawei, 4-Xiaomi, 5-Motorola")
+>>>>>>> 11bb2619e5106abb4eb70671a954de680795a1fe:Funciones/Funcionalidad_4.py
 marca_R = int(input("Ingresa el numero de la marca: "))
 while marca_R < 1 or marca_R > 8:
     marca_R = int(input('Ingrese un número válido: '))
