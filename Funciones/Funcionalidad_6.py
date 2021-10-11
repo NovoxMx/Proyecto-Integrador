@@ -8,7 +8,7 @@ valor= int(input("Elegir: "))
 
 #Agregar nuevos empleados
 if valor == 1:
-    archivo= open("Proyecto-Integrador\Funciones\Empleados.csv", "a")
+    archivo= open("Empleados.csv", "a")
     #Esa es mi direccion al archivo, si lo quieren cambiar haganlo
     nombre= input("Nombre del empleado: ")
     apellido= input("Apellido del empleado: ")
@@ -32,7 +32,7 @@ if valor == 1:
 elif valor == 2:
     print("Empleados: \n")
 
-    with open("Proyecto-Integrador\Funciones\Empleados.csv", newline= '') as csvfile:
+    with open("Empleados.csv", newline= '') as csvfile:
         archivo1=  csv.reader(csvfile, delimiter=',')
 
         for filas in archivo1:
