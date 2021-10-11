@@ -6,6 +6,7 @@ print("Empleados")
 print("Que quiere hacer: \n[1]Agregar Nuevo empleado. \n[2]Mostrar a los empleados.")
 valor= int(input("Elegir: "))
 
+#Agregar nuevos empleados
 if valor == 1:
     archivo= open("Proyecto-Integrador\Funciones\Empleados.csv", "a")
     #Esa es mi direccion al archivo, si lo quieren cambiar haganlo
@@ -27,6 +28,7 @@ if valor == 1:
     archivo.write("\n")
     archivo.close()
 
+#Lista de usuarios
 elif valor == 2:
     print("Empleados: \n")
 
