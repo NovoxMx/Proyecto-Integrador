@@ -1,3 +1,5 @@
+#Precios
+#Por angel Marin
 def miTelefonos(opcion):
     def miSamsung(opcion_telefono):
 
@@ -13,7 +15,7 @@ def miTelefonos(opcion):
         
         print("iPhone 12 --- $19,499.00")
         print("iPhone 11 Pro Max --- $24,598.00")
-        print("iPhone X --- $8,724.00")
+        print("iPhone Xr --- $8,724.00")
 
     def miHuawei(opcion_telefono):
 
