@@ -5,3 +5,8 @@ Fecha y hora: 2021-10-10 20:57:34.560757
 Producto: iPhone 11 Pro Max
 Cantidad de productos vendidos: 2
 
+Empleado: Jose
+Fecha y hora: 2021-10-10 21:03:31.248826
+Producto: Xiaomi Redmi Note 10 Pro
+Cantidad de productos vendidos: 1
+
