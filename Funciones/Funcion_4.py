@@ -8,7 +8,7 @@ hora = datetime.now()
 registro = []
 rule = 1
 print('---Bienvenido al registro, ingrese lo que se le pide.---')
-print('\nEmpleado: 1-Jose, 2-Pablo, 3- Pedro')
+print('\nEmpleado: 1-Jose, 2-Pablo, 3-Pedro')
 a_1 = int(input('Ingrese su numero de empleado: '))
 emp = str(0)
 while a_1 < 1 or a_1 >3:
@@ -22,7 +22,7 @@ else:
 
 
 print("\nIngese el producto vendido")
-print("1-Samsung, 2-Iphone, 3-Huawei, 4-Xiaomi, 5-motorola")
+print("1-Samsung, 2-Iphone, 3-Huawei, 4-Xiaomi, 5-Motorola")
 marca_R = int(input("Ingresa el numero de la marca: "))
 while marca_R < 1 or marca_R > 5:
     marca_R = int(input('Ingrese un número válido: '))

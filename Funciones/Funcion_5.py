@@ -24,10 +24,6 @@ print("[1] - Iphone 11")
 print("[2] - Samsung x")
 
 prod = int(input("Inserte la clave del producto que desea agregar: "))
-#Asignación número-producto
-#Ejemplo_1:
-if prod == 1:
-    Producto = "Iphone 11"
 
 Cant = int(input("¿Qué cantidad de productos desea agregar? "))
 
