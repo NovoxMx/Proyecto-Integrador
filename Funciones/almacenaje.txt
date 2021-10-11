@@ -2,9 +2,5 @@ Almacen:
 Iphone 11
 595
 Samsung x
-<<<<<<< HEAD
 26
  
-=======
-28
->>>>>>> 17d9f2005b5c77b7ae1108e1c9c6a8d6309a44f3
