@@ -12,7 +12,7 @@ print('\nEmpleado: 1-Jose, 2-Pablo, 3- Pedro')
 a_1 = int(input('Ingrese su numero de empleado: '))
 emp = str(0)
 while a_1 < 1 or a_1 >3:
-    a_1 = int(input('Ingrese un número: '))
+    a_1 = int(input('Ingrese un número válido: '))
 if a_1 == 1:
     emp = 'Jose'
 elif a_1 == 2:
@@ -22,9 +22,9 @@ else:
 
 
 print("\nIngese el producto vendido")
-print("1-Samsung, 2-Iphone, 3-Huawei, 4-Xiaomi, 5-motorola")
+print("1-Samsung, 2-Iphone, 3-Huawei, 4-Xiaomi, 5-motorola, 6-Cargadores, 7-Audifonos y protección, 8-Otros")
 marca_R = int(input("Ingresa el numero de la marca: "))
-while marca_R < 1 or marca_R > 5:
+while marca_R < 1 or marca_R > 8:
     marca_R = int(input('Ingrese un número válido: '))
 producto = str(0)   
 if marca_R == 1:
@@ -89,6 +89,45 @@ elif marca_R == 5:
         producto = 'Motorola Edge 20'
     else:
         producto = 'Motorola XT2125-4'
+
+elif marca_R == 6:
+    print("\n1-Cargador Tipo C, 2-Cargador iPhone, 3-Cargador Micro USB") 
+    phone_R = int(input("Ingresa el tipo de cargador: "))
+    while phone_R > 3 or phone_R < 1:
+        phone_R = int(input('Ingrese un número válido: '))
+    if phone_R == 1:
+        producto = 'Cargador tipo C'
+    elif phone_R ==2:
+        producto = 'Cargador iPhone'
+    else:
+        producto = 'Cargador Micro USB'
+
+elif marca_R == 7:
+    print("\n1-Audifonos Bluetooth, 2-Airpods, 3-Fundas, 4-Protector de pantalla")
+    phone_R = int(input("Ingrese el articulo que se vendió: "))
+    while phone_R > 4 or phone_R < 1:
+        phone_R = int(input('Ingrese un número válido: '))
+    if phone_R == 1:
+        producto = 'Audifonos Bluetooth'
+    elif phone_R ==2:
+        producto = 'Airpods'
+    elif phone_R ==3:
+        producto = 'Fundas'
+    else:
+        producto = 'Protector de pantalla'
+
+else:
+    print('\n1-Tarjeta de memoria (64Gb), 2-Batería portatil, 3- Popsockets')
+    phone_R = int(input("Ingrese el articulo que se vendió: "))
+    while phone_R > 3 or phone_R < 1:
+        phone_R = int(input('Ingrese un número válido: '))
+    if phone_R == 1:
+        producto = 'Tarjeta de memoria (64Gb)'
+    elif phone_R ==2:
+        producto = 'Batería portatil'
+    else:
+        producto = 'Popsockets'
+    
 
 
 cantidad = int(input('\nIntroduzca la cantidad de productos vendidos: '))
