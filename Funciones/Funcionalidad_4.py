@@ -8,7 +8,7 @@ hora = datetime.now()
 registro = []
 rule = 1
 print('---Bienvenido al registro, ingrese lo que se le pide.---')
-print('\nEmpleado: 1-Jose, 2-Pablo, 3-Pedro')
+print('\nEmpleado: 1-Jose, 2-Pepesio, 3-Pablo')
 a_1 = int(input('Ingrese su numero de empleado: '))
 emp = str(0)
 while a_1 < 1 or a_1 >3:
