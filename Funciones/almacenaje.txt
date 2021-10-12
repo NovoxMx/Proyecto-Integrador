@@ -28,7 +28,7 @@ Motorola Moto G60
 Motorola Edge 20
 0
 Motorola XT2125-4
-0
+-8
 Cargador Tipo C 
 0
 Cargador iPhone

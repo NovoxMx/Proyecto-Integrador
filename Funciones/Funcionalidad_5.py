@@ -45,6 +45,8 @@ elif categoria == 6:
 
 prod = int(input("\nInserte la clave del producto que desea agregar: "))
 Cant = int(input("\n¿Qué cantidad de productos desea agregar? "))
+while Cant < 1:
+    Cant = int(input('Introduzca una cantidad válida: '))
 
 if categoria == 1:
     prod = prod

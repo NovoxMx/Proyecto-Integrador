@@ -4,6 +4,20 @@
 from datetime import date
 from datetime import datetime
 
+def quitar_producto(producto, cantidad):
+    almacen_viejo = open("almacenaje.txt", "r")
+    lista_almacen = almacen_viejo.readlines()
+    num_actualizado = [str(int(lista_almacen[producto * 2]) - cantidad) + "\n"]
+    nueva_lista = lista_almacen[:(producto * 2)] + num_actualizado + lista_almacen[(producto * 2) + 1:]
+    almacen_viejo.close()
+    almacen_nuevo = open("almacenaje.txt", "w")
+    for renglon in nueva_lista:
+        almacen_nuevo.write(renglon)
+    almacen_nuevo.close()
+    almacen_actualizado = open("almacenaje.txt", "r")
+    lista_actualizada = almacen_actualizado.readlines()
+    almacen_actualizado.close()
+
 hora = datetime.now()
 registro = []
 rule = 1
@@ -129,11 +143,28 @@ else:
         producto = 'Popsockets'
     
 
-
 cantidad = int(input('\nIntroduzca la cantidad de productos vendidos: '))
 while cantidad < 1:
     cantidad = int(input('Introduzca una cantidad válida: '))
 
+if marca_R == 1:   #Definir p para quitar producto
+    p = phone_R
+elif marca_R == 2:
+    p = ((marca_R - 1) * 3) + phone_R
+elif marca_R == 3:
+    p = ((marca_R - 1) * 3) + phone_R
+elif marca_R == 4:
+    p = ((marca_R - 1) * 3) + phone_R
+elif marca_R == 5:
+    p = ((marca_R - 1) * 3) + phone_R
+elif marca_R == 6:
+    p = ((marca_R - 1) * 3) + phone_R
+elif marca_R == 7:
+    p = ((marca_R - 1) * 3) + phone_R
+elif marca_R == 8:
+    p = 22 + phone_R
+
+quitar_producto(p, cantidad)     #Quitar productos vendidos de almacen
 
 if rule == 0:
     print('verifique que todos los valores introducidos sean válidos')

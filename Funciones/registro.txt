@@ -10,3 +10,8 @@ Fecha y hora: 2021-10-10 21:03:31.248826
 Producto: Xiaomi Redmi Note 10 Pro
 Cantidad de productos vendidos: 1
 
+Empleado: Pablo
+Fecha y hora: 2021-10-12 01:56:29.774714
+Producto: Motorola XT2125-4
+Cantidad de productos vendidos: 8
+
