@@ -14,9 +14,19 @@ def quitar_producto(producto, cantidad):
     for renglon in nueva_lista:
         almacen_nuevo.write(renglon)
     almacen_nuevo.close()
-    almacen_actualizado = open("almacenaje.txt", "r")
-    lista_actualizada = almacen_actualizado.readlines()
-    almacen_actualizado.close()
+
+
+def asignar_venta_empleados(empleado, venta):
+    ventas_viejas = open("ventas_empleados.txt", "r")
+    lista_ventas = ventas_viejas.readlines()
+    num_actualizado = [str(int(lista_ventas[empleado * 2]) + venta) + "\n"]
+    nueva_lista = lista_ventas[:(empleado * 2)] + num_actualizado + lista_ventas[(empleado * 2) + 1:]
+    ventas_viejas.close()
+    ventas_nuevas = open("ventas_empleados.txt", "w")
+    for renglon in nueva_lista:
+        ventas_nuevas.write(renglon)
+    ventas_nuevas.close()
+
 
 hora = datetime.now()
 registro = []
@@ -30,9 +40,9 @@ while a_1 < 1 or a_1 >3:
 if a_1 == 1:
     emp = 'Jose'
 elif a_1 == 2:
-    emp= 'Pablo'
+    emp= 'Pepesio'
 else:
-    emp = 'Pedro'
+    emp = 'Pablo'
 
 
 print("\nIngese el producto vendido")
@@ -165,6 +175,7 @@ elif marca_R == 8:
     p = 22 + phone_R
 
 quitar_producto(p, cantidad)     #Quitar productos vendidos de almacen
+asignar_venta_empleados(a_1, cantidad)
 
 if rule == 0:
     print('verifique que todos los valores introducidos sean válidos')

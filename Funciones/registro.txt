@@ -15,3 +15,8 @@ Fecha y hora: 2021-10-12 01:56:29.774714
 Producto: Motorola XT2125-4
 Cantidad de productos vendidos: 8
 
+Empleado: Pablo
+Fecha y hora: 2021-10-12 12:51:12.872328
+Producto: Motorola XT2125-4
+Cantidad de productos vendidos: 2
+
