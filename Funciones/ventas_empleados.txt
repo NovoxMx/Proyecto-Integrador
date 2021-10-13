@@ -1,7 +1,7 @@
 Ventas:
 Jose
-0
+1
 Pepesio
-57
+58
 Pablo
-0
+2

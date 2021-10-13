@@ -25,3 +25,18 @@ Fecha y hora: 2021-10-12 21:25:13.590437
 Producto: Huawei P30 lite
 Cantidad de productos vendidos: 57
 
+Empleado: Pepesio
+Fecha y hora: 2021-10-12 22:31:13.875766
+Producto: iPhone Xr
+Cantidad de productos vendidos: 1
+
+Empleado: Jose
+Fecha y hora: 2021-10-12 22:32:41.199579
+Producto: iPhone 12
+Cantidad de productos vendidos: 1
+
+Empleado: Pablo
+Fecha y hora: 2021-10-12 22:46:13.119183
+Producto: iPhone Xr
+Cantidad de productos vendidos: 2
+
