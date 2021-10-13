@@ -3,6 +3,8 @@
 
 from datetime import date
 from datetime import datetime
+import os
+clear = lambda: os.system('cls')
 
 def quitar_producto(producto, cantidad):
     almacen_viejo = open("almacenaje.txt", "r")
@@ -187,4 +189,15 @@ else:
     archivo.write('Producto: ' + producto + '\n')
     archivo.write('Cantidad de productos vendidos: ' + str(cantidad) + '\n\n')
     archivo.close()
+
+print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')
+sino = int(input('\n¿Desea salir o volver al menú principal?\
+                \n[1]-Salir \n[2]-Volver al menú principal\n'))
+while sino < 1 or sino > 2:
+    sino = int(input('Ingrese un número válido: '))
+if sino == 2:
+    os.system('python Programa_Principal.py')
+else:
+    clear()
+
 

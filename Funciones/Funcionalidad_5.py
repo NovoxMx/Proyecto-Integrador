@@ -1,6 +1,8 @@
 #Agregar productos a almacén 
 #André Castillo
 
+import os
+clear = lambda: os.system('cls')
 def agregar_producto(producto, cantidad):
     almacen_viejo = open("almacenaje.txt", "r")
     lista_almacen = almacen_viejo.readlines()
@@ -62,3 +64,13 @@ elif categoria == 6:
     prod = prod + 15
 
 agregar_producto(prod, Cant)
+
+print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')
+sino = int(input('\n¿Desea salir o volver al menú principal?\
+                \n[1]-Salir \n[2]-Volver al menú principal\n'))
+while sino < 1 or sino > 2:
+    sino = int(input('Ingrese un número válido: '))
+if sino == 2:
+    os.system('python Programa_Principal.py')
+else:
+    clear()

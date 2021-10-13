@@ -2,21 +2,21 @@ Almacen:
 Galaxy Note 20 Ultra
 0
 Galaxy Z Fold3 5G
-0
+1
 Samsung Galaxy A32
 0
 iPhone 12
-0
+-33
 iPhone 11 Pro Max
 0
 iPhone Xr
-0
+-1
 Huawei P40 Pro
 0
 Huawei Mate 40 PRO
-0
+3
 Huawei P30 Lite
-20
+-37
 Xiaomi Redmi Note 10 Pro
 0
 Xiaomi Mi Mix 2S
