@@ -125,6 +125,7 @@ def miAccesorios(opcion):
     print("Bateria portatil --- $1000.00")
     print("Popsockets ---  $350.00")
 
+    print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')
     sino = int(input('\n¿Desea salir o volver al menú principal?\
                 \n[1]-Salir \n[2]-Volver al menú principal\n'))
     while sino < 1 or sino > 2:

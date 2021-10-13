@@ -66,4 +66,3 @@ if sino == 2:
 else:
     clear()
 
-

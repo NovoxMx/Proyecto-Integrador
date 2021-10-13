@@ -13,13 +13,13 @@ print('\nOpciones disponibles')
 print('\n[1]-Mostrar el almacen actual\n[2]-Información de los productos\
     \n[3]-Precio de los productos\n[4]-Registro de ventas\
     \n[5]-Agregar nuevos productos al almacen\n[6]-Informacion de empleados\
-    \n[7]-Reporte de ventas' )
+    \n[7]-Reporte de ventas\n[8]-Salir' )
 
 
 
 opcion = int(input('\nSeleccione la opcion que desee realizar: '))
 #print ('\n'+marquesina)
-while opcion < 1 or opcion > 7:
+while opcion < 1 or opcion > 8:
     opcion = int(input('Ingrese un número válido: '))
 if opcion == 1:
     clear()
@@ -45,7 +45,9 @@ elif opcion == 6:
     clear()
     print(marquesina)
     os.system('python Funcionalidad_6.py')
-else:
+elif opcion == 7:
     clear()
     print(marquesina)
     os.system('python Funcionalidad_7.py')
+else:
+    clear()
