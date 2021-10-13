@@ -2,21 +2,21 @@ Almacen:
 Galaxy Note 20 Ultra
 0
 Galaxy Z Fold3 5G
-1
+0
 Samsung Galaxy A32
 0
 iPhone 12
--33
+0
 iPhone 11 Pro Max
 -10
 iPhone Xr
--1
+0
 Huawei P40 Pro
 0
 Huawei Mate 40 PRO
-3
+0
 Huawei P30 Lite
--37
+0
 Xiaomi Redmi Note 10 Pro
 0
 Xiaomi Mi Mix 2S
@@ -28,7 +28,7 @@ Motorola Moto G60
 Motorola Edge 20
 0
 Motorola XT2125-4
--10
+0
 Cargador Tipo C 
 0
 Cargador iPhone

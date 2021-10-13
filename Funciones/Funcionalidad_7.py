@@ -1,5 +1,7 @@
 #Funcion 7 orientada hacia algún administrador
-
+import csv
+import os
+clear = lambda: os.system('cls')
 def imprimir_registro():
     registro = open("registro.txt", "r")
     lista_registro = registro.readlines()
@@ -27,3 +29,14 @@ elif option == 2:
         a_1 = int(input('Ingrese un número válido: '))
     print("")
     imprimir_registro_empleado(a_1)
+
+    
+print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')    
+sino = int(input('\n¿Desea salir o volver al menú principal?\
+        \n[1]-Salir \n[2]-Volver al menú principal\n'))
+while sino < 1 or sino > 2:
+        sino = int(input('Ingrese un número válido: '))
+if sino == 2:
+    os.system('python Programa_Principal.py')
+else:
+    clear()
