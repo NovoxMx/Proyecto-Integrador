@@ -24,6 +24,7 @@ if valor == 1:
         apellido= input("Apellido del empleado: ")
         edad= input("Introduce la edad: ")
         horario= input("Horario de trabajo: ")
+        salario= "$3696.6"
         dia_Descanso= input("Dia de Descanso: ")
 
         archivo.write(apellido)
@@ -33,6 +34,8 @@ if valor == 1:
         archivo.write(edad)
         archivo.write(",")
         archivo.write(horario)
+        archivo.write(",")
+        archivo.write(salario)
         archivo.write(",")
         archivo.write(dia_Descanso)
         archivo.write("\n")
@@ -56,7 +59,8 @@ elif valor == 2:
 
         for filas in archivo1:
             print (filas)
-    
+
+print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')    
 sino = int(input('\n¿Desea salir o volver al menú principal?\
         \n[1]-Salir \n[2]-Volver al menú principal\n'))
 while sino < 1 or sino > 2:
