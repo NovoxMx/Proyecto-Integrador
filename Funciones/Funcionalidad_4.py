@@ -60,13 +60,13 @@ if marca_R == 1:
         phone_R= int(input('Ingrese un número válido: '))
     if phone_R == 1:
         producto = 'Galaxy Note 20 Ultra'
-        precio = str(22499.00)
+        precio = int(22499.00)
     elif phone_R == 2:
         producto = 'Galaxy Z Fold3 5G'
-        precio = str(44999.00)
+        precio = int(44999.00)
     else:
         producto = 'Samsung Galaxy A3'
-        precio = str(5499.00)
+        precio = int(5499.00)
 
 elif marca_R == 2:
     print("\n1-iPhone 12, 2-iPhone 11 Pro Max, 3-iPhone Xr")
@@ -75,13 +75,13 @@ elif marca_R == 2:
         phone_R = int(input('Ingrese un número válido: '))
     if phone_R == 1:
         producto = 'iPhone 12'
-        precio = str(19499.00)
+        precio = int(19499.00)
     elif phone_R == 2:
         producto = 'iPhone 11 Pro Max'
-        precio = str(24598.00)
+        precio = int(24598.00)
     else:
         producto = 'iPhone Xr'
-        precio = str(8,724.00)
+        precio = int(8,724.00)
 
         
 elif marca_R == 3:
@@ -91,13 +91,13 @@ elif marca_R == 3:
         phone_R = int(input('Ingrese un número válido: '))
     if phone_R == 1:
         producto = 'Huawei P40 Pro'
-        precio = str(14999.00)
+        precio = int(14999.00)
     elif phone_R == 2:
         producto = 'Huawei Mate 40 PRO'
-        precio = str(25999.00)
+        precio = int(25999.00)
     else: 
         producto = 'Huawei P30 lite'
-        precio = str(5639.00)
+        precio = int(5639.00)
         
 elif marca_R == 4:
     print("\n1-Xiaomi Redmi Note 10 Pro, 2-Xiaomi Mi Mix 2S, 3-Xiaomi Mi 11 lite")
@@ -106,13 +106,13 @@ elif marca_R == 4:
         phone_R = int(input('Ingrese un número válido: '))
     if phone_R == 1:
         producto = 'Xiaomi Redmi Note 10 Pro'
-        precio = str(8399.00)
+        precio = int(8399.00)
     elif phone_R == 2:
         producto = 'Xiaomi Mi Mix 2S'
-        precio = str(9999.00)
+        precio = int(9999.00)
     else:
         producto = 'Xiaomi Mi 11 lite'
-        precio = str(6999.00)
+        precio = int(6999.00)
 
         
 elif marca_R == 5:
@@ -122,13 +122,13 @@ elif marca_R == 5:
         phone_R = int(input('Ingrese un número válido: '))
     if phone_R == 1:
         producto = 'Motorola Moto G60'
-        precio = str(7299.00)
+        precio = int(7299.00)
     elif phone_R == 2:
         producto = 'Motorola Edge 20'
-        precio = str(10999.00)
+        precio = int(10999.00)
     else:
         producto = 'Motorola XT2125-4'
-        precio = str(13199.00)
+        precio = int(13199.00)
 
 elif marca_R == 6:
     print("\n1-Cargador Tipo C, 2-Cargador iPhone, 3-Cargador Micro USB") 
@@ -137,13 +137,13 @@ elif marca_R == 6:
         phone_R = int(input('Ingrese un número válido: '))
     if phone_R == 1:
         producto = 'Cargador tipo C'
-        precio = str(300.00)
+        precio = int(300.00)
     elif phone_R ==2:
         producto = 'Cargador iPhone'
-        precio = str(350.00)
+        precio = int(350.00)
     else:
         producto = 'Cargador Micro USB'
-        precio = str(200.00)
+        precio = int(200.00)
 
 elif marca_R == 7:
     print("\n1-Audifonos Bluetooth, 2-Airpods, 3-Fundas, 4-Protector de pantalla")
@@ -152,16 +152,16 @@ elif marca_R == 7:
         phone_R = int(input('Ingrese un número válido: '))
     if phone_R == 1:
         producto = 'Audifonos Bluetooth'
-        precio = str(500.00)
+        precio = int(500.00)
     elif phone_R ==2:
         producto = 'Airpods'
-        precio = str(3899.00)
+        precio = int(3899.00)
     elif phone_R ==3:
         producto = 'Fundas'
-        precio = str(500.00)
+        precio = int(500.00)
     else:
         producto = 'Protector de pantalla'
-        precio = str(275.00)
+        precio = int(275.00)
 
 else:
     print('\n1-Tarjeta de memoria (64Gb), 2-Batería portatil, 3- Popsockets')
@@ -170,13 +170,13 @@ else:
         phone_R = int(input('Ingrese un número válido: '))
     if phone_R == 1:
         producto = 'Tarjeta de memoria (64Gb)'
-        precio = str(495.00)
+        precio = int(495.00)
     elif phone_R ==2:
         producto = 'Batería portatil'
-        precio = str(1000.00)
+        precio = int(1000.00)
     else:
         producto = 'Popsockets'
-        precio = str(350.00)
+        precio = int(350.00)
 
 cantidad = int(input('\nIntroduzca la cantidad de productos vendidos: '))
 while cantidad < 1:
