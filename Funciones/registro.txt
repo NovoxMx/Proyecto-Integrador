@@ -20,3 +20,8 @@ Fecha y hora: 2021-10-12 12:51:12.872328
 Producto: Motorola XT2125-4
 Cantidad de productos vendidos: 2
 
+Empleado: Pepesio
+Fecha y hora: 2021-10-12 21:25:13.590437
+Producto: Huawei P30 lite
+Cantidad de productos vendidos: 57
+

@@ -29,3 +29,23 @@ elif opcion == 2:
     clear()
     print(marquesina)
     os.system('python Funcionalidad_2.py')
+elif opcion == 3:
+    clear()
+    print(marquesina)
+    os.system('python Funcionalidad_3.py')
+elif opcion == 4:
+    clear()
+    print(marquesina)
+    os.system('python Funcionalidad_4.py')
+elif opcion == 5:
+    clear()
+    print(marquesina)
+    os.system('python Funcionalidad_5.py')
+elif opcion == 6:
+    clear()
+    print(marquesina)
+    os.system('python Funcionalidad_6.py')
+else:
+    clear()
+    print(marquesina)
+    os.system('python Funcionalidad_7.py')
