@@ -10,7 +10,7 @@ valor= int(input("Elegir: "))
 #Agregar nuevos empleados
 if valor == 1:
     contraseña = input('Ingrese la contraseña: ')
-    if contraseña != 'A01254173':
+    if contraseña != '3.14159265358979323846264338327950288419716939937510582097494':
         print ('Contraseña incorrecta')
 
     else:

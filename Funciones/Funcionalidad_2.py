@@ -1,18 +1,55 @@
 #Información de los productos
 #Juan Carlos Garcia A01252830
-
+import os
+clear = lambda: os.system('cls')
 def samsung(telefono):
     if telefono == 1:
-        print('\nGalaxy Note 20 Ultra \nFecha de lanzamiento = 21 de agosto de 2020 \nMemoria = 512GB 12GB RAM \nPantalla = 116.7 cm2 Dynamic AMOLED 2X \nResolución = 1440 x 3088 píxeles')
+        print('\nGalaxy Note 20 Ultra \nFecha de lanzamiento = 21 de agosto de 2020 \nMemoria = 512GB 12GB RAM \
+            \nPantalla = 116.7 cm2 Dynamic AMOLED 2X \nResolución = 1440 x 3088 píxeles')
+        sino = int(input('\n¿Desea salir o volver al menú principal?\
+                \n[1]-Salir \n[2]-Volver al menú principal\n'))
+        while sino < 1 or sino > 2:
+            sino = int(input('Ingrese un número válido: '))
+        if sino == 2:
+            os.system('python Programa_Principal.py')
+        else:
+            clear()
     elif telefono  == 2:
-        print("\nGalaxy Z Fold3 5G \nFecha de lanzamiento = 27 de agosto de 2021 \nMemoria = 512GB 12GB RAM \nPantalla = 179.9 cm2 Foldable Dynamic AMOLED 2X\nResolución = 1768 x 2208 píxeles")
+        print("\nGalaxy Z Fold3 5G \nFecha de lanzamiento = 27 de agosto de 2021 \nMemoria = 512GB 12GB RAM \
+            \nPantalla = 179.9 cm2 Foldable Dynamic AMOLED 2X\nResolución = 1768 x 2208 píxeles")
+        sino = int(input('\n¿Desea salir o volver al menú principal?\
+                \n[1]-Salir \n[2]-Volver al menú principal\n'))
+        while sino < 1 or sino > 2:
+            sino = int(input('Ingrese un número válido: '))
+        if sino == 2:
+            os.system('python Programa_Principal.py')
+        else:
+            clear()
     else:
-        print("\nSamsung Galaxy A32 \nFecha de lanzamiento = 25 de febrero de 2021 \nMemoria = 128GB 8GB RAM \nPantalla = 98.9 cm2 Super AMOLED \nResolución = 1080 x 2400 píxeles")
+        print("\nSamsung Galaxy A32 \nFecha de lanzamiento = 25 de febrero de 2021 \nMemoria = 128GB 8GB RAM \
+            \nPantalla = 98.9 cm2 Super AMOLED \nResolución = 1080 x 2400 píxeles")
+        sino = int(input('\n¿Desea salir o volver al menú principal?\
+                \n[1]-Salir \n[2]-Volver al menú principal\n'))
+        while sino < 1 or sino > 2:
+            sino = int(input('Ingrese un número válido: '))
+        if sino == 2:
+            os.system('python Programa_Principal.py')
+        else:
+            clear()
         
 
 def iphone(telefono):
     if telefono == 1:
-        print("\niPhone 12 \nFecha de lanzamiento = 23 de octubre de 2020 \nMemoria = 256GB 4GB RAM \nPantalla = 90.2 cm2 Super Retina XDR OLED \nResolución = 1170 x 2532 píxeles")
+        print("\niPhone 12 \nFecha de lanzamiento = 23 de octubre de 2020 \nMemoria = 256GB 4GB RAM \
+            \nPantalla = 90.2 cm2 Super Retina XDR OLED \nResolución = 1170 x 2532 píxeles")
+        sino = int(input('\n¿Desea salir o volver al menú principal?\
+                \n[1]-Salir \n[2]-Volver al menú principal\n'))
+        while sino < 1 or sino > 2:
+            sino = int(input('Ingrese un número válido: '))
+        if sino == 2:
+            os.system('python Programa_Principal.py')
+        else:
+            clear()
     elif telefono  == 2:
         print("\niPhone 11 Pro Max \nFecha de lanzamiento = 20 de septiembre de 2019 \nMemoria = 512GB 4GB RAM \nPantalla = 102.9 cm2 Super Retina XDR OLED \nResolución = 1242 x 2688 píxeles")
     else:
@@ -95,3 +132,12 @@ elif marca == 6:
     
 else:
     print("Numero invalido")
+
+
+sino = int(input(''))
+while sino < 1 or sino > 2:
+    sino = int(input('Ingrese un número válido: '))
+if sino == 2:
+    os.system('python Programa_Principal.py')
+else:
+    exit
