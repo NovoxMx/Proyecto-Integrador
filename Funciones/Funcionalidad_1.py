@@ -13,7 +13,7 @@ while True:
         break
     print(theline, end ="")
 
-
+print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')
 print('\n¿Desea salir o volver al menú principal?\
     \n[1]-Salir \n[2]-Volver al menú principal')
 
