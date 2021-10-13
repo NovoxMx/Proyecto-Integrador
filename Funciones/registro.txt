@@ -40,3 +40,8 @@ Fecha y hora: 2021-10-12 22:46:13.119183
 Producto: iPhone Xr
 Cantidad de productos vendidos: 2
 
+Empleado: Pepesio
+Fecha y hora: 2021-10-13 00:42:50.129487
+Producto: iPhone 12
+Cantidad de productos vendidos: 32
+
