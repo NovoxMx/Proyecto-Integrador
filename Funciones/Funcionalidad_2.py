@@ -16,6 +16,7 @@ def samsung(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     elif telefono  == 2:
         print("\nGalaxy Z Fold3 5G \nFecha de lanzamiento = 27 de agosto de 2021 \nAlmacenamiento = 512GB\
             \nMemoria Ram = 12GB RAM \
@@ -29,6 +30,7 @@ def samsung(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     else:
         print("\nSamsung Galaxy A32 \nFecha de lanzamiento = 25 de febrero de 2021 \nAlmacenamiento = 128GB\
             \nMemoria Ram = 8GB RAM \
@@ -58,6 +60,7 @@ def iphone(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     elif telefono  == 2:
         print("\niPhone 11 Pro Max \nFecha de lanzamiento = 20 de septiembre de 2019 \nAlmacenamiento = 512GB \
             \nMemoria Ram = 4GB RAM \
@@ -71,6 +74,7 @@ def iphone(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     else:
         print("\niPhone Xr \nFecha de lanzamiento = 12 de septiembre de 2018 \nAlmacenamiento = 256GB\
             \nMemoria Ram = 3GB RAM \
@@ -100,6 +104,7 @@ def huawei(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+            
     elif telefono  == 2:
         print("\nHuawei Mate 40 PRO \nFecha de lanzamiento = 22 de octubre de 2020 \nAlmacenamiento = 512GB\
             \nMemoria Ram = 8GB RAM \
@@ -113,6 +118,7 @@ def huawei(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     else:
         print("\nHuawei P30 lite \nFecha de lanzamiento = 27 de marzo de 2019 \nAlmacenamiento = 256GB\
             \nMemoria Ram = 6GB RAM \
@@ -126,6 +132,7 @@ def huawei(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
 
 def xiaomi(telefono):
     if telefono == 1:
@@ -141,6 +148,7 @@ def xiaomi(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     elif telefono  == 2:
         print("\nXiaomi Mi Mix 2S \nFecha de lanzamiento = 26 de Abril de 2018\nAlmacenamiento = 256GB \
             \n Memoria ram = 8 GB RAM \
@@ -154,6 +162,7 @@ def xiaomi(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     else:
         print("\nXiaomi Mi 11 lite \nFecha de lanzamiento = 29 de marzo de 2021 \nAlmacenamiento = 128GB\
             \nMemoria Ram = 8GB RAM \
@@ -167,7 +176,7 @@ def xiaomi(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
-        
+
 
 def motorola(telefono):
     if telefono == 1:
@@ -182,6 +191,7 @@ def motorola(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     elif telefono  == 2:
         print("\nMotorola Edge 20 \nFecha de lanzamiento = 29 de julio de 2021 \nAlmacenamiento = 256GB\
             \nMemoria Ram = 8GB RAM \
@@ -194,6 +204,7 @@ def motorola(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
     else:
         print("\nMotorola XT2125-4 \nFecha de lanzamiento = 25 de marzo de 2021 \nAlmacenamiento = 256GB \
             \nMemoria Ram = 12GB RAM \
@@ -206,6 +217,7 @@ def motorola(telefono):
             os.system('python Programa_Principal.py')
         else:
             clear()
+
 
 
 print("1-Samsung \n2-Iphone \n3-Huawei \n4-Xiaomi \n5-Motorola \n6-Accesorios")
@@ -256,6 +268,8 @@ elif marca == 6:
         \nCargador Micro Usb \nAudifonos Bluetooth \nAirpod \nFundas \
         \nProtector de pantalla \nTarjeta de memoria (64Gb) \
         \nBateria portatil \nPopsockets")
+
+    
     print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')
     sino = int(input('\n¿Desea salir o volver al menú principal?\
                 \n[1]-Salir \n[2]-Volver al menú principal\n'))
@@ -265,7 +279,7 @@ elif marca == 6:
             os.system('python Programa_Principal.py')
     else:
             clear()
-    
+
 else:
     print("Numero invalido")
 
