@@ -2,12 +2,16 @@
 #Por Angel Marin
 import csv
 import os
+clear = lambda: os.system('cls')
 
 print("Empleados")
 print("Que quiere hacer: \n[1]Agregar Nuevo empleado. \n[2]Mostrar a los empleados.")
 valor= int(input("Elegir: "))
 
 #Agregar nuevos empleados
+while valor < 1 or valor > 2:
+    valor = int(input('Ingrese un número válido: '))
+
 if valor == 1:
     contraseña = input('Ingrese la contraseña: ')
     if contraseña != '3.14159265358979323846264338327950288419716939937510582097494':
@@ -33,6 +37,15 @@ if valor == 1:
         archivo.write(dia_Descanso)
         archivo.write("\n")
         archivo.close()
+    
+    sino = int(input('\n¿Desea salir o volver al menú principal?\
+                \n[1]-Salir \n[2]-Volver al menú principal\n'))
+    while sino < 1 or sino > 2:
+            sino = int(input('Ingrese un número válido: '))
+    if sino == 2:
+        os.system('python Programa_Principal.py')
+    else:
+        clear()
 
 #Lista de usuarios
 elif valor == 2:
@@ -43,6 +56,14 @@ elif valor == 2:
 
         for filas in archivo1:
             print (filas)
-else:
-    print("Número invalido")
+    
+    sino = int(input('\n¿Desea salir o volver al menú principal?\
+                \n[1]-Salir \n[2]-Volver al menú principal\n'))
+    while sino < 1 or sino > 2:
+            sino = int(input('Ingrese un número válido: '))
+    if sino == 2:
+        os.system('python Programa_Principal.py')
+    else:
+        clear()
+
 
