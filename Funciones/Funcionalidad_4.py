@@ -200,7 +200,7 @@ elif marca_R == 8:
     p = 22 + phone_R
 
 quitar_producto(p, cantidad)     #Quitar productos vendidos de almacen
-asignar_venta_empleados(a_1, cantidad)
+asignar_venta_empleados(a_1, precio)
 
 if rule == 0:
     print('verifique que todos los valores introducidos sean válidos')
