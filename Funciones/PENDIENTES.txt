@@ -1,3 +1,0 @@
-- Añadir a funcion 4 el precio total de lo vendido
-- Definir en funcion 7 apartado para desplegar las ventas por empleado
-- Añadir salarios a empleados.csv para funcion 6

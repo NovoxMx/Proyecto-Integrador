@@ -1,1 +1,0 @@
-#funcion de prueba equipo 
