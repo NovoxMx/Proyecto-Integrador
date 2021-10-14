@@ -3,7 +3,7 @@
 #def almacenamiento():
 import os
 clear = lambda: os.system('cls')
-print('Bienvenido al inventario, seleccione una opción: ')
+print('Bienvenido al inventario')
 
 almacenamiento = open('almacenaje.txt', "r")
 while True:
