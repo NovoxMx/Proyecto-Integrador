@@ -5,3 +5,18 @@ Fecha y hora: 2021-10-13 20:43:24.343551
 Producto: iPhone Xr
 Cantidad de productos vendidos: 1
 
+Empleado: Pepesio
+Fecha y hora: 2021-10-14 08:24:54.981246
+Producto: Samsung Galaxy A3
+Cantidad de productos vendidos: 21
+
+Empleado: Pablo
+Fecha y hora: 2021-10-14 08:26:05.318214
+Producto: iPhone 12
+Cantidad de productos vendidos: 36
+
+Empleado: Jose
+Fecha y hora: 2021-10-14 08:27:12.199740
+Producto: iPhone 12
+Cantidad de productos vendidos: 23
+

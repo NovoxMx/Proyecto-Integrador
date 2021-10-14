@@ -201,19 +201,26 @@ elif marca_R == 7:
 elif marca_R == 8:
     p = 22 + phone_R
 
-quitar_producto(p, cantidad)     #Quitar productos vendidos de almacen
-asignar_venta_empleados(a_1, precio)
-
-if rule == 0:
-    print('verifique que todos los valores introducidos sean válidos')
+almacen_fallo = open("almacenaje.txt", "r")
+lista_almacen = almacen_fallo.readlines()
+cantidad_correcta = int(lista_almacen[p * 2])
+almacen_fallo.close()
+if cantidad_correcta > cantidad:    
+    quitar_producto(p, cantidad)     #Quitar productos vendidos de almacen
+    asignar_venta_empleados(a_1, precio)
+    if rule == 0:
+        print('verifique que todos los valores introducidos sean válidos')
+    else:
+        print('\nGracias por terminar su registro.')
+        archivo = open('registro.txt', 'a')
+        archivo.write('Empleado: ' + emp + "\n")
+        archivo.write('Fecha y hora: ' + str(hora) + "\n")
+        archivo.write('Producto: ' + producto + '\n')
+        archivo.write('Cantidad de productos vendidos: ' + str(cantidad) + '\n\n')
+        archivo.close()
 else:
-    print('\nGracias por terminar su registro.')
-    archivo = open('registro.txt', 'a')
-    archivo.write('Empleado: ' + emp + "\n")
-    archivo.write('Fecha y hora: ' + str(hora) + "\n")
-    archivo.write('Producto: ' + producto + '\n')
-    archivo.write('Cantidad de productos vendidos: ' + str(cantidad) + '\n\n')
-    archivo.close()
+    print("\nNo hay suficientes productos en almacén.")
+
 
 print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')
 sino = int(input('\n¿Desea salir o volver al menú principal?\

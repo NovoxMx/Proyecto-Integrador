@@ -1,6 +1,6 @@
 Ventas:
 Jose Marin:
-0
+19499
 Pepesio Piedra:
 8000
 Pablo Marmol:
