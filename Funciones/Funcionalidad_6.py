@@ -1,5 +1,5 @@
 #Empleados y agreagar a empleados
-#Por Angel Marin
+#Por: Angel Marin - A00835132 y André Castillo - A01254180
 import csv
 import os
 clear = lambda: os.system('cls')

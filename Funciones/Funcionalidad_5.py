@@ -1,5 +1,5 @@
-#Agregar productos a almacén 
-#André Castillo
+#Función para agregar productos al almacén 
+#Función trabajado por: André Castillo - A01254180
 
 import os
 clear = lambda: os.system('cls')

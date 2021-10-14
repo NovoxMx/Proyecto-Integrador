@@ -1,5 +1,5 @@
 # Función 4 - Registro de ventas
-# Función trabajada por - Marco Montoya A 01254155
+# Función trabajada por: Marco Montoya - A01254155 y André Castillo - A01254180
 
 from datetime import date
 from datetime import datetime

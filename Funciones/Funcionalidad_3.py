@@ -1,5 +1,5 @@
-#Precios
-#Por angel Marin
+#Función que desplega los precios de los productos
+#Por: Angel Marin - A00835132
 import os
 clear = lambda: os.system('cls')
 

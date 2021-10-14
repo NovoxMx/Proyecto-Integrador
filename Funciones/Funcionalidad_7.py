@@ -1,4 +1,5 @@
 #Funcion 7 orientada hacia algún administrador
+#Trabajada por: André Castillo - A01254180
 import csv
 import os
 clear = lambda: os.system('cls')

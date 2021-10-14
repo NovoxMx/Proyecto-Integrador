@@ -1,5 +1,5 @@
-#función de inventario en forma de lista con: tipo de artículo y cantidad, marcar cuando hay menos de 5 en existencia.
-#función por: Marco Tulio Montoya Angulo - A01254155
+#Función de inventario en forma de lista con: tipo de artículo y cantidad, marcar cuando hay menos de 5 en existencia.
+#Función por: Marco Tulio Montoya Angulo - A01254155
 #def almacenamiento():
 import os
 clear = lambda: os.system('cls')
