@@ -151,7 +151,7 @@ def xiaomi(telefono):
 
     elif telefono  == 2:
         print("\nXiaomi Mi Mix 2S \nFecha de lanzamiento = 26 de Abril de 2018\nAlmacenamiento = 256GB \
-            \n Memoria ram = 8 GB RAM \
+            \nMemoria ram = 8 GB RAM \
             \nPantalla = 92.6 cm2 IPS LCD \nResolución = 1080 x 2160 píxeles")
         print('\n•❅ ────────────✧ ❅ ✦ ❅ ✧──────────── ❅ •')
         sino = int(input('\n¿Desea salir o volver al menú principal?\
@@ -248,7 +248,7 @@ elif marca == 3:
         print("Numero invalido")
     
 elif marca == 4:
-    print("\n1-Xiaomi Redmi Note 10 Pro \n2-Xiaomi Mi Mix 2S \n3-Xiaomi Mi 11 lit")
+    print("\n1-Xiaomi Redmi Note 10 Pro \n2-Xiaomi Mi Mix 2S \n3-Xiaomi Mi 11 lite")
     phone = int(input("Ingresa el numero del telefono: "))
     if phone >= 1 and phone <= 3:
         xiaomi(phone)
