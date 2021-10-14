@@ -81,7 +81,7 @@ elif marca_R == 2:
         precio = int(24598.00)
     else:
         producto = 'iPhone Xr'
-        precio = int(8,724.00)
+        precio = int(8724.00)
 
         
 elif marca_R == 3:

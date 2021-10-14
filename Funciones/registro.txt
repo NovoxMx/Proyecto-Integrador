@@ -1,2 +1,7 @@
 ------ REGISTRO DE VENTAS ------
 
+Empleado: Pepesio
+Fecha y hora: 2021-10-13 20:43:24.343551
+Producto: iPhone Xr
+Cantidad de productos vendidos: 1
+

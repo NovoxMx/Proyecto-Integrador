@@ -13,7 +13,8 @@ def imprimir_registro_empleado(n_empleado):
     registro = open("ventas_empleados.txt", "r")
     lista_registro = registro.readlines()
     print(str(lista_registro[(n_empleado * 2) - 1]) + "Ha vendido: $" + lista_registro[n_empleado * 2])
-    print("Bonos: $" + str(int(lista_registro[n_empleado * 2]) * .05))
+    bonos = (float(lista_registro[n_empleado * 2]) * .05)
+    print("Bonos: $" + str(round(bonos, 2)))
     registro.close()
 
 
