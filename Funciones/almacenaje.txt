@@ -2,50 +2,50 @@ Almacen:
 Galaxy Note 20 Ultra
 0
 Galaxy Z Fold3 5G
-0
+13
 Samsung Galaxy A32
-0
+20
 iPhone 12
-0
+35
 iPhone 11 Pro Max
--10
+30
 iPhone Xr
-0
+23
 Huawei P40 Pro
-0
+23
 Huawei Mate 40 PRO
-0
+43
 Huawei P30 Lite
-0
+54
 Xiaomi Redmi Note 10 Pro
-0
+23
 Xiaomi Mi Mix 2S
-0
+43
 Xiaomi Mi 11 Lite
-0
+12
 Motorola Moto G60
-0
+2
 Motorola Edge 20
-0
+4
 Motorola XT2125-4
-0
+23
 Cargador Tipo C 
-0
+12
 Cargador iPhone
-0
+23
 Cargador Micro Usb
-0
+12
 Audifonos Bluetooth
-0
+45
 Airpod
-0
+21
 Fundas
-0
+60
 Protector de pantalla
-0
+100
 Tarjeta de memoria (64Gb)
-0
+50
 Bateria portatil
-0
+50
 Popsockets
-0
+75
