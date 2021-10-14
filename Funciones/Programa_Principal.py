@@ -1,4 +1,5 @@
 #Programa principal que llama a los demás archivos
+#Para correrlo es necesario ubicarse dentro de la carpeta /Funciones
 
 import os
 
