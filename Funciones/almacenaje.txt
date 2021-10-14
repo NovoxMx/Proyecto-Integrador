@@ -48,4 +48,4 @@ Tarjeta de memoria (64Gb)
 Bateria portatil
 50
 Popsockets
-75
+74

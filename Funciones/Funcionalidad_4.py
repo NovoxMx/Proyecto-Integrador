@@ -10,7 +10,8 @@ def quitar_producto(producto, cantidad):
     almacen_viejo = open("almacenaje.txt", "r")
     lista_almacen = almacen_viejo.readlines()
     num_actualizado = [str(int(lista_almacen[producto * 2]) - cantidad) + "\n"]
-    nueva_lista = lista_almacen[:(producto * 2)] + num_actualizado + lista_almacen[(producto * 2) + 1:]
+    nueva_lista = lista_almacen[:(producto * 2)] + num_actualizado \
+        + lista_almacen[(producto * 2) + 1:]
     almacen_viejo.close()
     almacen_nuevo = open("almacenaje.txt", "w")
     for renglon in nueva_lista:
@@ -22,7 +23,8 @@ def asignar_venta_empleados(empleado, venta):
     ventas_viejas = open("ventas_empleados.txt", "r")
     lista_ventas = ventas_viejas.readlines()
     num_actualizado = [str(int(lista_ventas[empleado * 2]) + venta) + "\n"]
-    nueva_lista = lista_ventas[:(empleado * 2)] + num_actualizado + lista_ventas[(empleado * 2) + 1:]
+    nueva_lista = lista_ventas[:(empleado * 2)] + num_actualizado \
+        + lista_ventas[(empleado * 2) + 1:]
     ventas_viejas.close()
     ventas_nuevas = open("ventas_empleados.txt", "w")
     for renglon in nueva_lista:

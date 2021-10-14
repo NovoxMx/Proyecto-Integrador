@@ -1,5 +1,5 @@
 #Función que despliega la información de los productos
-#Juan Carlos Garcia A01252830
+#Elaborada por: Juan Carlos Garcia A01252830
 import os
 clear = lambda: os.system('cls')
 def samsung(telefono):
